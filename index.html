@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>La librairie de Mathilde et Sofiane</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js');
+      });
+    }
+  </script>
+</head>
+<body>
+  <div class="header fixed-header">
+    <div class="japanese">積ん読</div>
+    <h1>La librairie de Mathilde et Sofiane</h1>
+    <img src="images/logo.png" alt="Logo" class="logo">
+  </div>
+
+  <div class="controls">
+    <input type="text" id="searchInput" placeholder="Recherche par titre, auteur, éditeur...">
+    <label for="sortSelect">Trier par :</label>
+    <select id="sortSelect">
+      <option value="titre">Titre</option>
+      <option value="auteur">Auteur</option>
+      <option value="editeur">Éditeur</option>
+      <option value="note">Note</option>
+    </select>
+  </div>
+
+  <div class="bd-grid" id="bdGrid"></div>
+
+  <div id="bdModal" class="modal">
+    <div class="modal-box">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "La librairie de Mathilde et Sofiane",
+  "short_name": "Librairie BD",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5e7cb",
+  "theme_color": "#f5e7cb",
+  "icons": [
+    {
+      "src": "images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,10 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
+  margin: 0;
+  padding: 0;
   background: #f5e7cb;
   margin: 0;
   padding: 2rem;
 }
 .header {
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  background: #f5e7cb;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -179,4 +189,20 @@ body.modal-open .bd-grid {
 
 .modal {
   z-index: 9999;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.fixed-header {
+  width: 100%;
+}
+
+
+.header h1 {
+  font-family: 'Modak', cursive !important;
 }

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>La librairie de Mathilde et Sofiane</title>
-  <link rel="stylesheet" href="style.css">
   <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
@@ -34,7 +34,7 @@
   <div class="bd-grid" id="bdGrid"></div>
 
   <div id="bdModal" class="modal">
-    <div class="modal-box">
+    <div class="modal-box" id="modalContentBox">
       <span class="close" onclick="closeModal()">&times;</span>
       <div id="modalContent"></div>
     </div>

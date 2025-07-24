@@ -224,7 +224,7 @@ const bds = [
     note: "★★★★☆"
   },
   {
-    image: "images/le_discour_de_la_panthere.jpg",
+    image: "images/le_discours_de_la_panthere.jpg",
     titre: "Le Discours de la panthère",
     auteur: "Jérémie Moreau",
     editeur: "2024",
@@ -496,7 +496,7 @@ const bds = [
     note: ""
   },
   {
-    image: "images/renee_aux_bois_dormant.jpg",
+    image: "images/renee_aux_bois_dormants.jpg",
     titre: "René.e aux bois dormant",
     auteur: "Elene Usdin",
     editeur: "Sarbacane",

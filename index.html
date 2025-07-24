@@ -21,7 +21,10 @@
   </div>
 
   <div class="controls">
-    <input type="text" id="searchInput" placeholder="Recherche par titre, auteur, éditeur...">
+    <div class="search-container">
+  <input type="text" id="searchInput" placeholder="Recherche par titre, auteur, éditeur..." required>
+  <span class="clear-search" onclick="clearSearch()">×</span>
+</div>
     <label for="sortSelect">Trier par :</label>
     <select id="sortSelect">
       <option value="titre">Titre</option>
@@ -29,6 +32,11 @@
       <option value="editeur">Éditeur</option>
       <option value="note">Note</option>
     </select>
+    <div class="filter-buttons">
+      <button onclick="displayBDs()">Afficher tout</button>
+      <img src="images/mathilde.png" alt="Top Mathilde" class="top-btn" onclick="filterTop('mathilde')">
+      <img src="images/sofiane.png" alt="Top Sofiane" class="top-btn" onclick="filterTop('sofiane')">
+    </div>
   </div>
 
   <div class="bd-grid" id="bdGrid"></div>

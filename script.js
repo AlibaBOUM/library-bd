@@ -110,3 +110,61 @@ sortSelect.addEventListener("change", () => displayBDs(searchInput.value));
 searchInput.addEventListener("input", () => displayBDs(searchInput.value));
 
 displayBDs();
+
+function filterTop(name) {
+  let topTitles = [];
+  if (name === "mathilde") {
+    topTitles = ["Adieu triste amour", "C’est comme ça que je disparais", "Culottées"];
+  } else if (name === "sofiane") {
+    topTitles = ["L'Aimant", "Alyte", "The Boy, The Mole, The Fox and The Horse"];
+  }
+  searchInput.value = ""; // clear search
+  const filtered = bds.filter(bd => topTitles.includes(bd.titre));
+  displayFilteredBDs(filtered);
+}
+
+function clearSearch() {
+  searchInput.value = "";
+  displayBDs();
+}
+
+function displayFilteredBDs(list) {
+  bdGrid.innerHTML = "";
+  const sortBy = sortSelect.value;
+  list.sort((a, b) => {
+    if (sortBy === 'note') return (b.note || '').localeCompare(a.note || '');
+    return (a[sortBy] || '').localeCompare(b[sortBy] || '');
+  });
+
+  list.forEach(bd => {
+    const card = document.createElement("div");
+    card.className = "bd-card";
+    card.innerHTML = `
+      <img src="${bd.image}" alt="${bd.titre}">
+      <div class="bd-info">
+        <h2>${bd.titre}</h2>
+        <p><strong>Auteur :</strong> ${bd.auteur}</p>
+        <p><strong>Éditeur :</strong> ${bd.editeur}</p>
+      </div>
+    `;
+    card.addEventListener("click", () => {
+    const modal = document.getElementById("bdModal");
+    const content = document.getElementById("modalContent");
+    modal.classList.remove("fadeOut");
+    modal.classList.add("fadeIn");
+    modal.classList.add("showing");
+    modal.style.display = "block";
+    document.body.style.overflow = "hidden";
+    document.body.classList.add('modal-open');
+    content.innerHTML = `
+      <img src="${bd.image}" alt="${bd.titre}" style="width:100%; border-radius: 10px; margin-bottom: 1rem;">
+      <h2>${bd.titre}</h2>
+      <p><strong>Auteur :</strong> ${bd.auteur}</p>
+      <p><strong>Éditeur :</strong> ${bd.editeur}</p>
+      <p><strong>Résumé :</strong> ${bd.resume}</p>
+      <p><strong>Note :</strong> ${bd.note}</p>
+    `;
+  });
+    bdGrid.appendChild(card);
+  });
+}

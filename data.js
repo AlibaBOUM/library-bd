@@ -8,6 +8,14 @@ const bds = [
     note: "★★★★☆"
   },
   {
+    image: "images/laimant.jpg",
+    titre: "L'Aimant",
+    auteur: "Lucas Harari",
+    editeur: "Sarbacane",
+    resume: "Alyte, têtard orphelin, traverse rivières et forêts, rencontre un saumon, un arbre… pour grandir dans une fable écologique poétique.",
+    note: "★★★★★"
+  },
+  {
     image: "images/alyte.jpg",
     titre: "Alyte",
     auteur: "Jérémie Moreau",
@@ -48,6 +56,14 @@ const bds = [
     note: ""
   },
   {
+    image: "images/le_bestiaire_du_crepuscule.jpg",
+    titre: "Le Bestiaire du Crépuscule",
+    auteur: "Daria Schmitt",
+    editeur: "Aire Libre",
+    resume: "",
+    note: ""
+  },
+  {
     image: "images/big_bang_cunni.jpg",
     titre: "Big Bang Cunni",
     auteur: "Chloé Wary",
@@ -72,6 +88,14 @@ const bds = [
     note: ""
   },
   {
+    image: "images/boule_de_feu.jpg",
+    titre: "Boule de feu",
+    auteur: "Anouk Ricard & Etienne Chaize",
+    editeur: "2024",
+    resume: "",
+    note: ""
+  },
+  {
     image: "images/the_boy_the_mole_the_fox_and_the_horse.jpg",
     titre: "The Boy, The Mole, The Fox and The Horse",
     auteur: "Charlie Mackesy",
@@ -84,6 +108,22 @@ const bds = [
     titre: "Brancusi contre États-Unis",
     auteur: "Arnaud Nebbache",
     editeur: "Dargaud",
+    resume: "",
+    note: ""
+  },
+  {
+    image: "images/carbone_et_silicium.jpg",
+    titre: "Carbone & Silicium",
+    auteur: "Mathieu Bablet",
+    editeur: "Ankama & Label 619",
+    resume: "",
+    note: ""
+  },
+  {
+    image: "images/le_cas_david_zimmerman.jpg",
+    titre: "Le cas David Zimmerman",
+    auteur: "Lucas Harari & son frère",
+    editeur: "Sarbacane",
     resume: "",
     note: ""
   },
@@ -176,12 +216,44 @@ const bds = [
     note: "★★★★☆"
   },
   {
+    image: "images/le_dieu_vagabond.jpg",
+    titre: "Le Dieu Vagabond",
+    auteur: "Fabrizio Dori",
+    editeur: "Sarbacane",
+    resume: "Polar noir vénitien dans lequel deux tueurs à gages se rencontrent dans une histoire de trahison et de révélations.",
+    note: "★★★★☆"
+  },
+  {
+    image: "images/le_discour_de_la_panthere.jpg",
+    titre: "Le Discours de la panthère",
+    auteur: "Jérémie Moreau",
+    editeur: "2024",
+    resume: "Polar noir vénitien dans lequel deux tueurs à gages se rencontrent dans une histoire de trahison et de révélations.",
+    note: "★★★★☆"
+  },
+  {
     image: "images/eden.jpg",
     titre: "Eden",
     auteur: "Sophie Guerrive",
     editeur: "2042",
     resume: "Un roman graphique intimiste qui retrace une trajectoire familiale marquée par secrets et résilience.",
     note: "★★★☆☆"
+  },
+  {
+    image: "images/lenfantome.jpg",
+    titre: "L'Enfantôme",
+    auteur: "Jim Bishop",
+    editeur: "Glénat",
+    resume: "Polar noir vénitien dans lequel deux tueurs à gages se rencontrent dans une histoire de trahison et de révélations.",
+    note: "★★★★☆"
+  },
+  {
+    image: "images/lenfer.jpg",
+    titre: "L'Enfer",
+    auteur: "Nicolas Badout",
+    editeur: "Sarbacane",
+    resume: "Polar noir vénitien dans lequel deux tueurs à gages se rencontrent dans une histoire de trahison et de révélations.",
+    note: "★★★★☆"
   },
   {
     image: "images/epouvantail.jpg",
@@ -192,9 +264,25 @@ const bds = [
     note: "★★★★☆"
   },
   {
+    image: "images/fantasy.jpg",
+    titre: "Fantasy",
+    auteur: "Yoann Kavege",
+    editeur: "Bubble BD",
+    resume: "Récit onirique et visuel, facéties poétiques sur la fluidité de la mémoire et du temps.",
+    note: "★★★★☆"
+  },
+  {
     image: "images/flux.jpg",
     titre: "Flux",
     auteur: "Jop",
+    editeur: "Ankama",
+    resume: "Récit onirique et visuel, facéties poétiques sur la fluidité de la mémoire et du temps.",
+    note: "★★★★☆"
+  },
+  {
+    image: "images/le_grand_vide.jpg",
+    titre: "Le_Grand_Vide",
+    auteur: "Léa Murawiec",
     editeur: "Ankama",
     resume: "Récit onirique et visuel, facéties poétiques sur la fluidité de la mémoire et du temps.",
     note: "★★★★☆"
@@ -256,6 +344,14 @@ const bds = [
     note: "★★★★☆"
   },
   {
+    image: "images/krimi.jpg",
+    titre: "Krimi",
+    auteur: "Alex W. Inker",
+    editeur: "Sarbacane",
+    resume: "Biographie graphique de Yayoi Kusama, de son enfance trouble au Japon à son ascension en tant qu’icône artistique, entre créativité et maladie mentale.",
+    note: "★★★★☆"
+  },
+  {
     image: "images/le_loup.jpg",
     titre: "Le Loup",
     auteur: "Jean‑Marc Rochette",
@@ -264,9 +360,12 @@ const bds = [
     note: "★★★★☆"
   },
   {
-    image: "images/love.jpg",
-    titre: "Love",
-    auteur: "", editeur: "", resume: "", note: ""
+    image: "images/love_and_other_big_things.jpg",
+    titre: "Love and other weird things",
+    auteur: "Rich Sparks", 
+    editeur: "", 
+    resume: "", 
+    note: ""
   },
   {
     image: "images/maus_i.jpg",
@@ -285,6 +384,14 @@ const bds = [
     note: "★★★★★"
   },
   {
+    image: "images/moi_ce_que_jaime_cest_les_monstres.jpg",
+    titre: "Moi ce que j’aime c’est les monstres",
+    auteur: "Emil Ferris",
+    editeur: "Fantagraphics / Rackham",
+    resume: "Journal intime d’une fillette enquêtant sur la mort d’une voisine, mêlant créatures fantastiques et traumatisme, avec un graphisme unique à l’aquarelle.",
+    note: "★★★★★"
+  },
+  {
     image: "images/mon_adolescence_trans.jpg",
     titre: "Mon adolescence trans",
     auteur: "Fumetti Brutti",
@@ -293,12 +400,36 @@ const bds = [
     note: ""
   },
   {
-    image: "images/moi_ce_que_jaime_cest_les_monstres.jpg",
-    titre: "Moi ce que j’aime c’est les monstres",
-    auteur: "Emil Ferris",
-    editeur: "Fantagraphics / Rackham",
-    resume: "Journal intime d’une fillette enquêtant sur la mort d’une voisine, mêlant créatures fantastiques et traumatisme, avec un graphisme unique à l’aquarelle.",
-    note: "★★★★★"
+    image: "images/mon_ami_pierrot.jpg",
+    titre: "Mon ami Pierrot",
+    auteur: "Jim Bishop",
+    editeur: "Glénat",
+    resume: "Polar noir vénitien dans lequel deux tueurs à gages se rencontrent dans une histoire de trahison et de révélations.",
+    note: "★★★★☆"
+  },
+  {
+    image: "images/the_nice_house_on_the_lake_1.jpg",
+    titre: "The Nice House on the Lake 1",
+    auteur: "James Tynion IV & Alvaro Martinez Bueno",
+    editeur: "Urban",
+    resume: "",
+    note: ""
+  },
+  {
+    image: "images/the_nice_house_on_the_lake_2.jpg",
+    titre: "The Nice House on the Lake 2",
+    auteur: "James Tynion IV & Alvaro Martinez Bueno",
+    editeur: "Urban",
+    resume: "",
+    note: ""
+  },
+  {
+    image: "images/the_nice_house_by_the_sea.jpg",
+    titre: "The Nice House by the Sea",
+    auteur: "James Tynion IV & Alvaro Martinez Bueno",
+    editeur: "Urban",
+    resume: "",
+    note: ""
   },
   {
     image: "images/la_nuit_des_lanternes.jpg",
@@ -333,6 +464,14 @@ const bds = [
     note: "★★★★★"
   },
   {
+    image: "images/petit.jpg",
+    titre: "Petit - Les Ogres-Dieux",
+    auteur: "Hubert & Gatignol",
+    editeur: "Dargaud",
+    resume: "",
+    note: ""
+  },
+  {
     image: "images/pisse_meme.jpg",
     titre: "Pisse‑Mémé",
     auteur: "Cati Bour",
@@ -356,13 +495,13 @@ const bds = [
     resume: "",
     note: ""
   },
-    {
-    image: "images/le_roi_meduse.jpg",
-    titre: "Le Roi Méduse I",
-    auteur: "Brecht Evens",
-    editeur: "Actes Sud BD",
-    resume: "Uchronie mêlant mythologie et politique européenne, centrée sur le roi méduse et ses réflexions sur le pouvoir et l’injustice.",
-    note: "★★★★☆"
+  {
+    image: "images/renee_aux_bois_dormant.jpg",
+    titre: "René.e aux bois dormant",
+    auteur: "Elene Usdin",
+    editeur: "Sarbacane",
+    resume: "Chant poétique et tendre sur la vie, la famille et les petits riens qui composent le quotidien.",
+    note: "★★★☆☆"
   },
   {
     image: "images/rien_a_feutre.jpg",
@@ -371,6 +510,14 @@ const bds = [
     editeur: "Lapin",
     resume: "Chant poétique et tendre sur la vie, la famille et les petits riens qui composent le quotidien.",
     note: "★★★☆☆"
+  },
+    {
+    image: "images/le_roi_meduse.jpg",
+    titre: "Le Roi Méduse I",
+    auteur: "Brecht Evens",
+    editeur: "Actes Sud BD",
+    resume: "Uchronie mêlant mythologie et politique européenne, centrée sur le roi méduse et ses réflexions sur le pouvoir et l’injustice.",
+    note: "★★★★☆"
   },
   {
     image: "images/salon_de_beaute.jpg",
@@ -397,6 +544,22 @@ const bds = [
     note: "★★★★☆"
   },
   {
+    image: "images/the_smartest_kid.jpg",
+    titre: "The smartest kid",
+    auteur: "Jimmy Corrigan",
+    editeur: "Chronicle Books",
+    resume: "Album humoristique et tendre sur un homme prétendument ‘le plus intelligent’, confronté aux absurdités de la vie.",
+    note: "★★★☆☆"
+  },
+  {
+    image: "images/sous_les_galets_la_plage.jpg",
+    titre: "Sous les galets la plage",
+    auteur: "Pascal Rabaté",
+    editeur: "Rue de Sèvre",
+    resume: "Album humoristique et tendre sur un homme prétendument ‘le plus intelligent’, confronté aux absurdités de la vie.",
+    note: "★★★☆☆"
+  },
+  {
     image: "images/vers_la_ville.jpg",
     titre: "Vers la ville",
     auteur: "Tom Gauld",
@@ -413,12 +576,12 @@ const bds = [
     note: "★★★★☆"
   },
   {
-    image: "images/the_smartest_kid.jpg",
-    titre: "The smartest kid",
-    auteur: "Jimmy Corrigan",
-    editeur: "Chronicle Books",
-    resume: "Album humoristique et tendre sur un homme prétendument ‘le plus intelligent’, confronté aux absurdités de la vie.",
-    note: "★★★☆☆"
+    image: "images/uk_in_a_bad_way.jpg",
+    titre: "UK in a bad way",
+    auteur: "James Harvey",
+    editeur: "Sarbacane",
+    resume: "Un récit émouvant sur le deuil, la perte d’un proche et le processus de guérison intérieure.",
+    note: "★★★★☆"
   },
   {
     image: "images/where_the_body_was.jpg",

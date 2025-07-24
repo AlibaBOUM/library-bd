@@ -120,3 +120,35 @@ input[type="text"], select {
   margin-left: 0.5rem;
   font-family: "Noto Sans JP", sans-serif;
 }
+
+
+.modal-box {
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+
+@keyframes fadeOut {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(20px); }
+}
+
+.fadeIn {
+  animation: fadeIn 0.3s ease-in-out forwards;
+}
+.fadeOut {
+  animation: fadeOut 0.3s ease-in-out forwards;
+}
+
+.modal-box button {
+  background: #004225;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.modal-box button:hover {
+  background: #006633;
+}

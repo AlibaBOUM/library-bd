@@ -29,7 +29,7 @@ function displayBDs(query = "") {
     card.innerHTML = `
       <img src="${bd.image}" alt="${bd.titre}">
       <div class="bd-info">
-        <h2>${bd.titre}</h2>
+        <h2>${bd.titre}</h2>${bd.signe ? '<span class="badge-signe">Signée</span>' : ''}
         <p><strong>Auteur :</strong> ${bd.auteur}</p>
         <p><strong>Éditeur :</strong> ${bd.editeur}</p>
       </div>
@@ -61,11 +61,11 @@ function openModal(bd) {
       <button onclick="navigateModal(-1)">← Précédent</button>
       <button onclick="navigateModal(1)">Suivant →</button>
     </div>
-    <h2>${bd.titre}</h2>
+    <h2>${bd.titre}</h2>${bd.signe ? '<span class="badge-signe">Signée</span>' : ''}
     <p><strong>Auteur :</strong> ${bd.auteur}</p>
     <p><strong>Éditeur :</strong> ${bd.editeur}</p>
     <p><strong>Résumé :</strong> ${bd.resume}</p>
-    <p><strong>Note :</strong> ${bd.note}</p>
+    <p><strong>Note :</strong> ${bd.note}</p>${bd.signe ? '<p><strong>✨ Exemplaire signé</strong></p>' : ''}
   `;
 }
 
@@ -142,7 +142,7 @@ function displayFilteredBDs(list) {
     card.innerHTML = `
       <img src="${bd.image}" alt="${bd.titre}">
       <div class="bd-info">
-        <h2>${bd.titre}</h2>
+        <h2>${bd.titre}</h2>${bd.signe ? '<span class="badge-signe">Signée</span>' : ''}
         <p><strong>Auteur :</strong> ${bd.auteur}</p>
         <p><strong>Éditeur :</strong> ${bd.editeur}</p>
       </div>
@@ -158,11 +158,11 @@ function displayFilteredBDs(list) {
     document.body.classList.add('modal-open');
     content.innerHTML = `
       <img src="${bd.image}" alt="${bd.titre}" style="width:100%; border-radius: 10px; margin-bottom: 1rem;">
-      <h2>${bd.titre}</h2>
+      <h2>${bd.titre}</h2>${bd.signe ? '<span class="badge-signe">Signée</span>' : ''}
       <p><strong>Auteur :</strong> ${bd.auteur}</p>
       <p><strong>Éditeur :</strong> ${bd.editeur}</p>
       <p><strong>Résumé :</strong> ${bd.resume}</p>
-      <p><strong>Note :</strong> ${bd.note}</p>
+      <p><strong>Note :</strong> ${bd.note}</p>${bd.signe ? '<p><strong>✨ Exemplaire signé</strong></p>' : ''}
     `;
   });
     bdGrid.appendChild(card);

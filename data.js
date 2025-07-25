@@ -12,7 +12,8 @@ const bds = [
     titre: "L'Aimant",
     auteur: "Lucas Harari",
     editeur: "Sarbacane",
-    resume: "Alyte, têtard orphelin, traverse rivières et forêts, rencontre un saumon, un arbre… pour grandir dans une fable écologique poétique.",
+    resume: "Un étudiant en architecture devient obsédé par des thermes suisses où l’étrange, le mystique et le béton coulé se mélangent un peu trop bien.",
+    signe: true,
     note: "★★★★★"
   },
   {
@@ -28,7 +29,7 @@ const bds = [
     titre: "Amours croisées",
     auteur: "Laura Nsafou & Camélia Blandeau",
     editeur: "La Ribambulle",
-    resume: "Yari découvre que Hide vit en polyamour. Un récit moderne sur les différentes façons d’aimer, confrontant jalousie et acceptation.",
+    resume: "Yari tombe amoureuse d’un mec déjà en couple… avec deux autres filles : bienvenue dans les joies du polyamour version 2020.",
     note: "★★★★☆"
   },
   {
@@ -36,7 +37,7 @@ const bds = [
     titre: "Ballades",
     auteur: "Camille Potte",
     editeur: "Atrabile",
-    resume: "Le prince Gourignot transformé en grenouille doit déjouer un complot pour retrouver sa couronne dans un conte poétique.",
+    resume: "Un prince-grenouille, une chevalière paumée et une salamandre camée partent sauver une princesse dans une épopée aussi débile qu’héroïque.",
     note: "★★★★☆"
   },
   {
@@ -52,7 +53,7 @@ const bds = [
     titre: "Beneath the trees",
     auteur: "Patrick Horvath",
     editeur: "Ankama",
-    resume: "",
+    resume: "Sous ses airs de parfaite petite ourse quincaillière, Samantha cache un secret sanglant… et l’arrivée d’un autre tueur en série menace de gâcher sa couverture bien rangée.",
     note: ""
   },
   {
@@ -60,7 +61,7 @@ const bds = [
     titre: "Le Bestiaire du Crépuscule",
     auteur: "Daria Schmitt",
     editeur: "Aire Libre",
-    resume: "",
+    resume: "Providence, gardien d’un parc qui abrite des créatures lovecraftiennes hallucinées que lui seul voit, se bat contre une directrice startupeuse – et un livre mystérieux sortant du lac – pour empêcher son jardin de devenir une startup infernale.",
     note: ""
   },
   {
@@ -68,7 +69,7 @@ const bds = [
     titre: "Big Bang Cunni",
     auteur: "Chloé Wary",
     editeur: "BD Cul",
-    resume: "",
+    resume: "Elle plaque tout, découvre les joies du cunnilingus et part en quête de jouissance cosmique à dos de sextoy géant — parce que l’orgasme, c’est la vie.",
     note: ""
   },
   {
@@ -76,7 +77,7 @@ const bds = [
     titre: "Black hole",
     auteur: "Charles Burns",
     editeur: "Delcourt",
-    resume: "",
+    resume: "Des ados des années 70 chopent une MST chelou qui leur file des mutations bizarres, entre queue de lézard et peau qui mue, pendant que leurs hormones et angoisses explosent comme leurs boutons.",
     note: ""
   },
   {
@@ -84,7 +85,7 @@ const bds = [
     titre: "Blast",
     auteur: "Manu Larcenet",
     editeur: "Dargaud",
-    resume: "",
+    resume: "Un colosse paumé raconte aux flics sa cavale hallucinée à la recherche d’un blast, cette sensation d’extase pure, entre déchéance crasse et illuminations mystiques.",
     note: ""
   },
   {
@@ -92,7 +93,7 @@ const bds = [
     titre: "Boule de feu",
     auteur: "Anouk Ricard & Etienne Chaize",
     editeur: "2024",
-    resume: "",
+    resume: "Un type maladroit doit traverser un portail inter‑mondes en compagnie d’un petit chien pas très motivé pour ramener un mage exilé, avant que la « boule de feu » protectrice de son village ne s’éteigne et que les envahisseurs ne débarquent.",
     note: ""
   },
   {
@@ -108,7 +109,8 @@ const bds = [
     titre: "Brancusi contre États-Unis",
     auteur: "Arnaud Nebbache",
     editeur: "Dargaud",
-    resume: "",
+    resume: "Constantin Brancusi affronte les douaniers et les juges américains pour prouver que son 'Oiseau dans l’espace' est une œuvre d’art et non un vulgaire bout de métal, dans un procès ubuesque où la modernité se heurte au bon sens administratif.",
+    signe: true,
     note: ""
   },
   {
@@ -116,7 +118,7 @@ const bds = [
     titre: "Carbone & Silicium",
     auteur: "Mathieu Bablet",
     editeur: "Ankama & Label 619",
-    resume: "",
+    resume: "Carbone et Silicium, deux androïdes créés pour aider l’humanité, s’échappent du labo pour vivre mille vies sur une Terre en déclin, entre utopies brisées, amours impossibles et quête d’humanité éternelle.",
     note: ""
   },
   {
@@ -124,7 +126,8 @@ const bds = [
     titre: "Le cas David Zimmerman",
     auteur: "Lucas Harari & son frère",
     editeur: "Sarbacane",
-    resume: "",
+    resume: "David Zimmerman, photographe un peu largué, se réveille un matin dans le corps d’une inconnue et tente de comprendre ce switch improbable, aidé (ou pas) par son amie Harry, aussi envahissante qu’intrépide.",
+    signe: true,
     note: ""
   },
   {
@@ -132,7 +135,7 @@ const bds = [
     titre: "Cauchemar",
     auteur: "Pierre Ferrero",
     editeur: "L'employé du moi",
-    resume: "",
+    resume: "Pétain revient d’entre les morts, fusionne avec le président en place et plonge la France dans un délire autoritaire peuplé de flics-phacochères, pendant qu’une résistance déjantée tente de remettre un peu d’absurde dans le cauchemar.",
     note: ""
   },
   {
@@ -140,7 +143,7 @@ const bds = [
     titre: "Ces jours qui disparaissent",
     auteur: "Timothé Le Boucher",
     editeur: "Glénat",
-    resume: "",
+    resume: "Lubin Maréchal, acrobate rêveur, découvre qu’une autre version de lui prend sa vie un jour sur deux, le forçant à dialoguer avec son alter ego sans oublier qu’un jour il risque bien de disparaître…",
     note: ""
   },
   {
@@ -156,7 +159,7 @@ const bds = [
     titre: "Contes de la mansarde",
     auteur: "Elisabeth Holleville & Iris Pouy",
     editeur: "L'employé du moi",
-    resume: "",
+    resume: "Trois voisins paumés vivent un été sous les toits entre crise existentielle, gratouilles cheloues et pièce secrète flippante — bienvenue dans la coloc la moins sereine de Paris.",
     note: ""
   },
     {
@@ -164,7 +167,7 @@ const bds = [
     titre: "Colorado Train",
     auteur: "Alex W. Inker",
     editeur: "Sarbacane",
-    resume: "Un western atypique et poétique sur un vieux hors-la-loi, sa quête de rédemption et ses souvenirs sur le mythique Colorado Train.",
+    resume: "Dans un petit trou du Colorado des années 1990, des ados skateurs paumés traînent entre rêves rebelles et décor post-minier… jusqu’à ce qu’un tueur au style Wendigo vienne rendre leurs virées en skate mortellement sérieuses.",
     note: "★★★★☆"
   },
   {
@@ -172,15 +175,15 @@ const bds = [
     titre: "La couleur des choses",
     auteur: "Martin Panchaud",
     editeur: "Cà et Là",
-    resume: "Récit contemplatif et visuel sur la perception du monde, les émotions et la symbolique des couleurs dans notre quotidien.",
+    resume: "Un ado anglais rondouillard mise secrètement tout l’argent de son père sur un cheval, gagne un pactole, mais découvre que sa mère est dans le coma et son père introuvable — il se lance alors dans une enquête improbable façon road‑trip graphique où tous les personnages sont des cercles colorés !",
     note: "★★★★☆"
   },
   {
     image: "images/cornelius.jpg",
-    titre: "Cornelius, la vie pleine dejoie du triste chien",
+    titre: "Cornelius, la vie pleine de joie du triste chien",
     auteur: "Marc Torices",
     editeur: "Actes Sud BD",
-    resume: "Aventures fantastiques d’un garçon ordinaire confronté à un étrange univers peuplé de créatures étonnantes.",
+    resume: "Cornelius, un chien maladroit, déprimé et peu courageux travaillant dans un centre sportif, voit sa vie (et son cœur) partir en vrille lorsqu’il devient suspect d’un kidnapping qu’il peine à raconter — une aventure à mille visages graphiques qui transforme le toutou-looser en star involontaire d’un thriller psychologique barré.",
     note: "★★★☆☆"
   },
   {
@@ -188,7 +191,8 @@ const bds = [
     titre: "Croissant Amoureux",
     auteur: "Yasutoshi Kuokami",
     editeur: "The Hoochie Coochie",
-    resume: "Une romance douce-amère entre deux cœurs solitaires qui se découvrent autour d’un petit-déjeuner gourmand.",
+    resume: "Kodai, lycéen geek de 2050, tombe complètement sous le charme de Bagavathy, la fille indienne transfusée dans son lycée, et fonce dans des défis fous (drone‑chat, concours d’avion) avec son ami Shōkō pour la conquérir…",
+    signe: true,
     note: "★★★☆☆"
   },
   {
@@ -196,7 +200,7 @@ const bds = [
     titre: "Crossed : Si tu voyais ça",
     auteur: "Simon Spurrier & Javier Barreno",
     editeur: "Panini Comics",
-    resume: "Un récit brutal et dystopique où la violence règne. Focus sur des personnages dans un monde ravagé par un mal extrême.",
+    resume: "Sur une île écossaise post-apocalyptique, Shaky et son groupe survivent face à des infectés polymorphes en croix… jusqu’à l’arrivée d’étranges naufragés marins qui font basculer le camp entre parano, manipulations et explosions de sang.",
     note: "★★★☆☆"
   },
   {
@@ -220,7 +224,7 @@ const bds = [
     titre: "Le Dieu Vagabond",
     auteur: "Fabrizio Dori",
     editeur: "Sarbacane",
-    resume: "Polar noir vénitien dans lequel deux tueurs à gages se rencontrent dans une histoire de trahison et de révélations.",
+    resume: "Eustis, satyre ivrogne et fauché, part en virée mystico-délirante avec un fantôme et un prof bègue pour sauver un dieu paumé des Enfers avant la prochaine pleine lune.",
     note: "★★★★☆"
   },
   {
@@ -228,7 +232,7 @@ const bds = [
     titre: "Le Discours de la panthère",
     auteur: "Jérémie Moreau",
     editeur: "2024",
-    resume: "Polar noir vénitien dans lequel deux tueurs à gages se rencontrent dans une histoire de trahison et de révélations.",
+    resume: "Une panthère croise des bêtes aussi paumées que poétiques dans une série de fables animales où la sagesse flirte avec l’absurde.",
     note: "★★★★☆"
   },
   {
@@ -236,7 +240,7 @@ const bds = [
     titre: "Eden",
     auteur: "Sophie Guerrive",
     editeur: "2042",
-    resume: "Un roman graphique intimiste qui retrace une trajectoire familiale marquée par secrets et résilience.",
+    resume: "Tulipe, ours-moine rêveur, quitte son monastère pour chercher l’Eden et tombe sur des sages improbables, des cailloux bavards et pas mal de doutes existentiels.",
     note: "★★★☆☆"
   },
   {
@@ -244,7 +248,8 @@ const bds = [
     titre: "L'Enfantôme",
     auteur: "Jim Bishop",
     editeur: "Glénat",
-    resume: "Polar noir vénitien dans lequel deux tueurs à gages se rencontrent dans une histoire de trahison et de révélations.",
+    resume: "Jacques et Mims doivent « réussir ou mourir », mais quand leurs parents mutent en monstres flippants, le cauchemar scolaire prend une tournure bien plus trash.",
+    signe: true,
     note: "★★★★☆"
   },
   {
@@ -252,7 +257,8 @@ const bds = [
     titre: "L'Enfer",
     auteur: "Nicolas Badout",
     editeur: "Sarbacane",
-    resume: "Polar noir vénitien dans lequel deux tueurs à gages se rencontrent dans une histoire de trahison et de révélations.",
+    resume: "Marcel, patron d’hôtel jaloux, bascule en plein délire paranoïaque en croyant qu’Odette le trompe, jusqu’à confondre fantasmes et réalité dans un trip visuel vertigineux.",
+    signe: true,
     note: "★★★★☆"
   },
   {
@@ -260,7 +266,8 @@ const bds = [
     titre: "Épouvantail",
     auteur: "Peleaz & Sénégas",
     editeur: "Dargaud",
-    resume: "Un super‑vilain emblématique de DC Comics, à travers une BD sombre et atmosphérique sur la peur et la psychose.",
+    resume: "Lily se lie d’amitié avec un épouvantail vulgaire et flippant, qui semble en savoir long sur un drame enfoui sous les blés.",
+    signe: true,
     note: "★★★★☆"
   },
   {
@@ -268,7 +275,8 @@ const bds = [
     titre: "Fantasy",
     auteur: "Yoann Kavege",
     editeur: "Bubble BD",
-    resume: "Récit onirique et visuel, facéties poétiques sur la fluidité de la mémoire et du temps.",
+    resume: "Deux héroïnes au destin croisé – une princesse en mission vengeresse et une géante qui doit attendre 1 000 ans pour aimer – racontées dans un seul album que tu lis dans les deux sens : du côté vengeance ou du côté cœur, au choix !",
+    signe: true,
     note: "★★★★☆"
   },
   {
@@ -276,7 +284,8 @@ const bds = [
     titre: "Flux",
     auteur: "Jop",
     editeur: "Ankama",
-    resume: "Récit onirique et visuel, facéties poétiques sur la fluidité de la mémoire et du temps.",
+    resume: "Une scientifique et un poète se réveillent transformés après une tempête magnétique et partent en quête de sens dans un monde devenu marécage.",
+    signe: true,
     note: "★★★★☆"
   },
   {
@@ -284,7 +293,7 @@ const bds = [
     titre: "Le_Grand_Vide",
     auteur: "Léa Murawiec",
     editeur: "Ankama",
-    resume: "Récit onirique et visuel, facéties poétiques sur la fluidité de la mémoire et du temps.",
+    resume: "Manel Naher vit dans une ville où ta survie dépend de combien de gens pensent à toi… jusqu’à ce qu’un homonyme ultra‑célèbre lui vole la vedette et menace de la faire disparaître dans le Grand Vide.",
     note: "★★★★☆"
   },
   {
@@ -292,7 +301,7 @@ const bds = [
     titre: "Homicide",
     auteur: "Philippe Squarzoni",
     editeur: "Delcourt",
-    resume: "Polar intense et viscéral suivant deux flics pris dans une enquête obsédante et pleine de noirceur.",
+    resume: "À Baltimore en 1988, des flics désabusés enchaînent les meurtres sans piste, jonglant entre paperasse, cadavres et humour noir pour ne pas sombrer.",
     note: "★★★★☆"
   },
   {
@@ -300,7 +309,7 @@ const bds = [
     titre: "Happy Endings",
     auteur: "Lucie Bryon",
     editeur: "Sarbacane",
-    resume: "Une BD introspective sur la solitude, l’amour et l’espoir dans un univers urbain mélancolique.",
+    resume: "Trois histoires douces et queer où l’amour surgit entre un dessin, une glace et quelques larmes bien placées.",
     note: "★★★☆☆"
   },
   {
@@ -308,7 +317,7 @@ const bds = [
     titre: "Ici",
     auteur: "Richard McGuire",
     editeur: "Éditions Cornélius",
-    resume: "Œuvre innovante qui explore mille ans de l’histoire d’un lieu unique, à travers des variations temporelles graphiquement audacieuses.",
+    resume: "Une pièce immobile à travers des milliers d’années, où défilent vies, morts, dinosaures et canapés dans un ballet spatio-temporel vertigineux.",
     note: "★★★★★"
   },
   {
@@ -316,7 +325,8 @@ const bds = [
     titre: "Koko n’aime pas le capitalisme",
     auteur: "tienstiens",
     editeur: "Bandes Détournées",
-    resume: "Koko, petite fille curieuse, découvre les rouages du capitalisme et pose des questions poignantes et pleines d’humour.",
+    resume: "Koko, gorille anar et grognon, balance des baffes au capitalisme dans des strips aussi absurdes que lucides.",
+    signe: true,
     note: "★★★★☆"
   },
   {
@@ -324,7 +334,8 @@ const bds = [
     titre: "Koko n’aime pas le capitalisme à la plage",
     auteur: "tienstiens",
     editeur: "Bandes Détournées",
-    resume: "Suite estivale des aventures de Koko, entre jeux, découverte du monde et réflexions sur la consommation.",
+    resume: "Koko et son poulpe révolutionnaire cassent le capitalisme entre deux baignades absurdes et trois punchlines marxistes.",
+    signe: true,
     note: "★★★★☆"
   },
     {
@@ -332,7 +343,7 @@ const bds = [
     titre: "Koma",
     auteur: "Pierre Wazem & Frederik Peeters",
     editeur: "Les Humanoïdes associés",
-    resume: "Addidas, petite fille imaginative, tombe dans un monde onirique où elle explore la réalité et le rêve, guidée par une créature née de sa douleur.",
+    resume: "Addidas, petite ramoneuse curieuse, découvre un monde souterrain peuplé de monstres et de mystères qui vont chambouler sa vie bien plus qu’une cheminée bouchée.",
     note: "★★★★★"
   },
   {
@@ -348,7 +359,8 @@ const bds = [
     titre: "Krimi",
     auteur: "Alex W. Inker",
     editeur: "Sarbacane",
-    resume: "Biographie graphique de Yayoi Kusama, de son enfance trouble au Japon à son ascension en tant qu’icône artistique, entre créativité et maladie mentale.",
+    resume: "À Berlin, un flic brut de décoffrage embarque Fritz Lang sur les traces d’un tueur, entre bière, nazis et ciné noir en devenir.",
+    signe: true,
     note: "★★★★☆"
   },
   {
@@ -364,7 +376,7 @@ const bds = [
     titre: "Love and other weird things",
     auteur: "Rich Sparks", 
     editeur: "", 
-    resume: "", 
+    resume: "Une série de strips absurdes et mordants où un lapin qui fait de l’auto-stop peut finir dans un duel à couteaux — un concentré de sarcasme doux-amer, de surréalisme et de situations improbables.", 
     note: ""
   },
   {
@@ -388,7 +400,7 @@ const bds = [
     titre: "Moi ce que j’aime c’est les monstres",
     auteur: "Emil Ferris",
     editeur: "Fantagraphics / Rackham",
-    resume: "Journal intime d’une fillette enquêtant sur la mort d’une voisine, mêlant créatures fantastiques et traumatisme, avec un graphisme unique à l’aquarelle.",
+    resume: "Karen, gamine fan de monstres et de BD, enquête sur la mort louche de sa voisine dans un Chicago des années 60 plein de secrets, de freaks et de pages griffonnées comme un vieux cahier d’école.",
     note: "★★★★★"
   },
   {
@@ -396,7 +408,7 @@ const bds = [
     titre: "Mon adolescence trans",
     auteur: "Fumetti Brutti",
     editeur: "Massot",
-    resume: "",
+    resume: "Yole, adolescente en France, navigue entre son bac, les attentes familiales et l’éveil de sa transidentité dans un récit autobiographique puissant où l’humour léger éclaire les zones d’ombre d’un parcours intime. ",
     note: ""
   },
   {
@@ -404,7 +416,8 @@ const bds = [
     titre: "Mon ami Pierrot",
     auteur: "Jim Bishop",
     editeur: "Glénat",
-    resume: "Polar noir vénitien dans lequel deux tueurs à gages se rencontrent dans une histoire de trahison et de révélations.",
+    resume: "Cléa croise la route de Pierrot, magicien mystérieux, et s’embarque dans une aventure en forêt où les contes de fées ne sont pas toujours ce qu’ils semblent.",
+    signe: true,
     note: "★★★★☆"
   },
   {
@@ -412,7 +425,7 @@ const bds = [
     titre: "The Nice House on the Lake 1",
     auteur: "James Tynion IV & Alvaro Martinez Bueno",
     editeur: "Urban",
-    resume: "",
+    resume: "Un groupe d’amis se retrouve dans une maison de rêve au bord d’un lac, invités par un mystérieux Walter… mais le monde extérieur bascule dans l’horreur, et le paradis se transforme en piège psychologique glaçant.",
     note: ""
   },
   {
@@ -420,7 +433,7 @@ const bds = [
     titre: "The Nice House on the Lake 2",
     auteur: "James Tynion IV & Alvaro Martinez Bueno",
     editeur: "Urban",
-    resume: "",
+    resume: "Alors que les survivants tentent de comprendre les règles tordues de la maison, les souvenirs s'effritent, les tensions montent… et Walter, toujours aussi insaisissable, semble tirer les ficelles d’un jeu bien plus vaste qu’eux.",
     note: ""
   },
   {
@@ -428,15 +441,17 @@ const bds = [
     titre: "The Nice House by the Sea",
     auteur: "James Tynion IV & Alvaro Martinez Bueno",
     editeur: "Urban",
-    resume: "",
+    resume: "Des invités triés sur le volet séjournent dans une maison luxueuse en bord de mer… mais quelque chose cloche derrière les murs parfaits.",
+    signe: true,
     note: ""
   },
   {
     image: "images/la_nuit_des_lanternes.jpg",
     titre: "La nuit des lanternes",
-    auteur: "Jean_Etienne",
+    auteur: "Jean-Etienne",
     editeur: "Delcourt",
-    resume: "",
+    resume: "Éloane revient sur son île natale pour un festival de lanternes… mais casse la sienne, réveille un monstre ancestral et déclenche un folklore de vengeance et de secrets bien enfouis.",
+    signe: true,
     note: ""
   },
   {
@@ -444,7 +459,7 @@ const bds = [
     titre: "The Number",
     auteur: "Thomas Ott",
     editeur: "L'Association",
-    resume: "",
+    resume: "Un homme solitaire découvre un mystérieux numéro et se retrouve happé dans un monde muet, sombre et troublant.",
     note: ""
   },
   {
@@ -452,7 +467,7 @@ const bds = [
     titre: "Our Encounter with Evil",
     auteur: "Mike Mignola & Warwick Johnson-Cadwell",
     editeur: "",
-    resume: "",
+    resume: "Trois chasseurs de monstres excentriques traquent vampires et créatures maudites dans un univers gothique délicieusement décalé et plein de panache.",
     note: ""
   },
   {
@@ -468,7 +483,7 @@ const bds = [
     titre: "Petit - Les Ogres-Dieux",
     auteur: "Hubert & Gatignol",
     editeur: "Dargaud",
-    resume: "",
+    resume: "Un ogre minuscule au milieu de géants cruels tente de trouver sa place entre barbarie et humanité.",
     note: ""
   },
   {
@@ -476,7 +491,7 @@ const bds = [
     titre: "Pisse‑Mémé",
     auteur: "Cati Bour",
     editeur: "Dargaud",
-    resume: "",
+    resume: "Quatre amies ouvrent un bar associatif bien-être et galèrent joyeusement entre tisanes, rêves et coups durs.",
     note: ""
   },
   {
@@ -484,7 +499,7 @@ const bds = [
     titre: "Police Lunaire",
     auteur: "Tom Gauld",
     editeur: "2042",
-    resume: "",
+    resume: "Un agent lunaire patrouille une colonie vide, s’ennuie ferme entre donuts, constats sans crime et solitude sidérale… et se retrouve plus poète que flic dans un décor d’espace désertique.",
     note: ""
   },
   {
@@ -492,7 +507,7 @@ const bds = [
     titre: "Portrait d’un buveur",
     auteur: "Schrauwen Ruppert & Mulot",
     editeur: "Aire-Libre",
-    resume: "",
+    resume: "Guy, pirate aviné, menteur invétéré et paumé patenté, trace sa route entre bitures, bagarres et abordages délirants, tandis qu’un mort le suit dans un au-delà tordu où tout peut arriver.",
     note: ""
   },
   {
@@ -500,7 +515,7 @@ const bds = [
     titre: "René.e aux bois dormant",
     auteur: "Elene Usdin",
     editeur: "Sarbacane",
-    resume: "Chant poétique et tendre sur la vie, la famille et les petits riens qui composent le quotidien.",
+    resume: "Un enfant hypersensible sombre dans un monde de rêves mythiques habité de créatures étranges, se métamorphose en fleurs, arbres ou chats, et transforme sa quête de lapin en voyage initiatique onirique et coloré.",
     note: "★★★☆☆"
   },
   {
@@ -508,7 +523,7 @@ const bds = [
     titre: "Rien à feutre",
     auteur: "Camille Blandin",
     editeur: "Lapin",
-    resume: "Chant poétique et tendre sur la vie, la famille et les petits riens qui composent le quotidien.",
+    resume: "Des tranches absurdes de quotidien passées au feutre, où des situations banales deviennent étrangement drôles et étranges — de l’humour coloré qui vous parle, même si vous êtes un loup‑garou.",
     note: "★★★☆☆"
   },
     {
@@ -516,7 +531,7 @@ const bds = [
     titre: "Le Roi Méduse I",
     auteur: "Brecht Evens",
     editeur: "Actes Sud BD",
-    resume: "Uchronie mêlant mythologie et politique européenne, centrée sur le roi méduse et ses réflexions sur le pouvoir et l’injustice.",
+    resume: "Arthur grandit enfermé avec son père convaincu qu’un vaste complot menace le monde, jusqu’à ce que le paternel disparaisse — forçant le garçon à sortir de leur citadelle parano pour affronter l’inconnu.",
     note: "★★★★☆"
   },
   {
@@ -524,7 +539,7 @@ const bds = [
     titre: "Salon de beauté",
     auteur: "Quentin Zuttion",
     editeur: "Dupuis",
-    resume: "Portrait intimiste de copropriétaires d’un salon dans l’Italie contemporaine, à travers rires, confidences et coups de crayon autobiographiques.",
+    resume: "Jeshua tient un salon de beauté queer devenu refuge pour malades, entre paillettes, dignité et fin du monde en douceur.",
     note: "★★★★☆"
   },
   {
@@ -532,7 +547,8 @@ const bds = [
     titre: "Sans Panique",
     auteur: "Coline Hégron",
     editeur: "Delcourt & Mirage",
-    resume: "Recueil d’histoires autour de l’anxiété et des peurs quotidiennes, mêlant humour et autodérision.",
+    resume: "Romie, rescapée d’un accident, débarque sur une île peuplée d’insulaires apathiques et décide de secouer l’ambiance... surtout après avoir appris qu’une météorite arrive !",
+    signe: true,
     note: "★★★☆☆"
   },
   {
@@ -556,7 +572,7 @@ const bds = [
     titre: "Sous les galets la plage",
     auteur: "Pascal Rabaté",
     editeur: "Rue de Sèvre",
-    resume: "Album humoristique et tendre sur un homme prétendument ‘le plus intelligent’, confronté aux absurdités de la vie.",
+    resume: "Trois ados coincés croisent Odette, tornade rebelle qui transforme leur été chic en été choc.",
     note: "★★★☆☆"
   },
   {
@@ -564,7 +580,7 @@ const bds = [
     titre: "Vers la ville",
     auteur: "Tom Gauld",
     editeur: "2042",
-    resume: "Récit en images de la vie urbaine japonaise, oscillant entre intimité quotidienne et instants suspendus.",
+    resume: "Deux amis quittent tout pour partir en quête d'une ville mystérieuse, dans une errance minimaliste et poétique où la pluie, les brouettes et l'absurde révèlent une tendresse cosmique.",
     note: "★★★★☆"
   },
   {
@@ -572,7 +588,8 @@ const bds = [
     titre: "Voie de Garage",
     auteur: "Arnaud Nebbache & Sophie Adriansen",
     editeur: "Dargaud",
-    resume: "Un enquêteur privé dans les bas-fonds urbains, mêlant polar noir, violence et poésie de la vie d’ombre.",
+    resume: "Paulin, passionné de trolleybus, voit sa vie dérailler quand la société décide qu’il est trop bizarre pour rester libre.",
+    signe: true,
     note: "★★★★☆"
   },
   {
@@ -580,7 +597,7 @@ const bds = [
     titre: "UK in a bad way",
     auteur: "James Harvey",
     editeur: "Sarbacane",
-    resume: "Un récit émouvant sur le deuil, la perte d’un proche et le processus de guérison intérieure.",
+    resume: "Jin, étudiante punk à Londres, et Edward, sans‑abri magicien, se croisent et déclenchent une amitié explosive en traversant la ville comme deux éclairs rebelles dans un monde hyper surveillé.",
     note: "★★★★☆"
   },
   {
@@ -588,7 +605,7 @@ const bds = [
     titre: "Where the Body Was",
     auteur: "Ed Brubaker & Sean Phillips",
     editeur: "First Second",
-    resume: "Un récit émouvant sur le deuil, la perte d’un proche et le processus de guérison intérieure.",
+    resume: "Un meurtre est découvert l’été 1984 dans une banlieue tranquille, et une douzaine de voisins au passé louche racontent chacun leur version du drame.",
     note: "★★★★☆"
   },
 ];

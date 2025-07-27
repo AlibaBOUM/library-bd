@@ -33,11 +33,35 @@ const bds = [
     note: "★★★★☆"
   },
   {
+    image: "images/au_dedans.jpg",
+    titre: "Au dedans",
+    auteur: "Will McPhail",
+    editeur: "404 Editions",
+    resume: "Nick, illustrateur trentenaire, enchaîne les cafés et les bars sans jamais réussir à se connecter vraiment aux gens… jusqu’à ce qu’une rencontre inattendue ébranle sa bulle et lui offre un aperçu vibrant de l’authenticité humaine.",
+    note: "★★★★☆"
+  },
+  {
     image: "images/ballades.jpg",
     titre: "Ballades",
     auteur: "Camille Potte",
     editeur: "Atrabile",
     resume: "Un prince-grenouille, une chevalière paumée et une salamandre camée partent sauver une princesse dans une épopée aussi débile qu’héroïque.",
+    note: "★★★★☆"
+  },
+  {
+    image: "images/bebe_fille.jpg",
+    titre: "Bébé Fille",
+    auteur: "Élisa Marraudino",
+    editeur: "Même pas mal",
+    resume: "Dans une famille italo-vosgienne des années 2000, une fillette raconte avec humour et tendresse ses souvenirs d’enfance et les petits chocs culturels qui l’ont marquée.",
+    note: "★★★★☆"
+  },
+  {
+    image: "images/bebe_fille_en_remet_une_couche.jpg",
+    titre: "Bébé Fille, en remet une couche",
+    auteur: "Élisa Marraudino",
+    editeur: "Même pas mal",
+    resume: "Une chronique drôle et touchante du passage à l’âge adulte, entre souvenirs tendres, maladresses du quotidien et petites secousses de la vie.",
     note: "★★★★☆"
   },
   {
@@ -124,7 +148,7 @@ const bds = [
   {
     image: "images/le_cas_david_zimmerman.jpg",
     titre: "Le cas David Zimmerman",
-    auteur: "Lucas Harari & son frère",
+    auteur: "Lucas Harari & Arthur Harari",
     editeur: "Sarbacane",
     resume: "David Zimmerman, photographe un peu largué, se réveille un matin dans le corps d’une inconnue et tente de comprendre ce switch improbable, aidé (ou pas) par son amie Harry, aussi envahissante qu’intrépide.",
     signe: true,
@@ -170,6 +194,15 @@ const bds = [
     resume: "Dans un petit trou du Colorado des années 1990, des ados skateurs paumés traînent entre rêves rebelles et décor post-minier… jusqu’à ce qu’un tueur au style Wendigo vienne rendre leurs virées en skate mortellement sérieuses.",
     note: "★★★★☆"
   },
+    {
+    image: "images/cometa.jpg",
+    titre: "Cometa",
+    auteur: "Elie Huault",
+    editeur: "Les Humanoïdes Associées",
+    resume: "Un spationaute muet explore une planète étrange pour percer un mystère, dans un récit silencieux et poétique aux paysages saisissants et en constante mutation.",
+    signe: true,
+    note: "★★★★☆"
+  },
   {
     image: "images/la_couleur_des_choses.jpg",
     titre: "La couleur des choses",
@@ -212,6 +245,14 @@ const bds = [
     note: "★★★★★"
   },
   {
+    image: "images/cyberpunk_trauma_team.jpg",
+    titre: "CyberPunk 2077 - Trauma Team",
+    auteur: "Cullen Bunn & Miguel Valderrama",
+    editeur: "Panini",
+    resume: "Une secouriste armée doit extraire un client blessé dans un immeuble infesté de gangs, tout en affrontant ses propres traumatismes liés à une mission précédente.",
+    note: ""
+  },
+  {
     image: "images/deux_tueurs.jpg",
     titre: "Deux tueurs",
     auteur: "Mezzo & Pirus",
@@ -234,6 +275,62 @@ const bds = [
     editeur: "2024",
     resume: "Une panthère croise des bêtes aussi paumées que poétiques dans une série de fables animales où la sagesse flirte avec l’absurde.",
     note: "★★★★☆"
+  },
+  {
+    image: "images/doggy_bags_01.jpg",
+    titre: "Doggy Bags #01",
+    auteur: "Run / Maudoux / Singelin",
+    editeur: "Ankama & Label 619",
+    resume: "Une fille traquée par un gang de bikers-loups-garous. / Une mère en fuite avec son bébé après un affrontement mortel. / Un braquage tourne au carnage dans le désert, laissant un braqueur menotté au cadavre d’un flic.",
+    note: "★★★☆☆"
+  },
+  {
+    image: "images/doggy_bags_02.jpg",
+    titre: "Doggy Bags #02",
+    auteur: "Run & Bablet / Run & Singelin / Kieran & Ozanam",
+    editeur: "Ankama & Label 619",
+    resume: "Un pompiste raconte sa folie meurtrière contre les bimbos. / Des rednecks affrontent un Chupacabra carnivore. / Un vol express infernal nommé Vol Express 666.",
+    note: "★★★☆☆"
+  },
+  {
+    image: "images/doggy_bags_05.jpg",
+    titre: "Doggy Bags #05",
+    auteur: "Ducoudray & Neyef / Kartinka / El Puerto & Tomeus",
+    editeur: "Ankama & Label 619",
+    resume: "Un parc d’attractions devient une zone de chasse humaine où des zombies sont traqués pour le divertissement. / Un ancien militaire creuse un trou dans son jardin, déclenchant une suite d’événements macabres et incontrôlables. / Un crocodile géant sème la terreur dans les égouts de Miami après avoir muté dans l’obscurité.",
+    note: "★★★☆☆"
+  },
+  {
+    image: "images/doggy_bags_10.jpg",
+    titre: "Doggy Bags #10",
+    auteur: "Mangin & Rouzière / Mojo & Hutt / Sztybor & Shavrin",
+    editeur: "Ankama & Label 619",
+    resume: "Un tueur à gages accumule les coups du sort lors d’un contrat qui dérape. / À Détroit, un mécanicien surdoué glisse peu à peu dans la criminalité. / Un artiste obsédé par le corps pousse sa démarche jusqu’à l’horreur pure.",
+    note: "★★★☆☆"
+  },
+  {
+    image: "images/doggy_bags_11.jpg",
+    titre: "Doggy Bags #11",
+    auteur: "Hasteda & Pagani / Mangin & Sécheresse / Hasteda & Chesnot",
+    editeur: "Ankama & Label 619",
+    resume: "Une prison isolée devient le théâtre d’un rituel vaudou incontrôlable. / Un faux prophète mène ses fidèles dans une quête mystique aussi sanglante que démente. / Un groupe de touristes en Afrique du Sud se retrouve coincé dans une cage à requins au large, sans secours possible.",
+    note: "★★★☆☆"
+  },
+  {
+    image: "images/doggy_bags_12.jpg",
+    titre: "Doggy Bags #12",
+    auteur: "Run & Singelin / Kaneko / Bordier & Sourya",
+    editeur: "Ankama & Label 619",
+    resume: "Une lycéenne subit un quotidien oppressant, jusqu’à ce que la violence explose. / Un tueur français débarque au Japon pour solder une vieille dette. / Dans un Japon ravagé, un samouraï solitaire affronte des monstres mutants.",
+    note: "★★★☆☆"
+  },
+  {
+    image: "images/doggy_bags_13.jpg",
+    titre: "Doggy Bags #13",
+    auteur: "Run / Run & Mojo & Hutt / Calla & Rosset",
+    editeur: "Ankama & Label 619",
+    resume: "Un groupe de citoyens décide de faire justice lui-même face à des policiers intouchables. / Des adolescents s'organisent pour traquer un tueur déguisé en clown qui terrorise leur quartier. / Un homme déguisé en mascotte commet un attentat à Times Square pour dénoncer une société décadente.",
+    note: "★★★☆☆"
   },
   {
     image: "images/eden.jpg",
@@ -280,6 +377,14 @@ const bds = [
     note: "★★★★☆"
   },
   {
+    image: "images/fables_psychiatriques.jpg",
+    titre: "Fables Psychiatriques",
+    auteur: "Darryl Cunningham",
+    editeur: "Cà et Là",
+    resume: "Une série de récits poignants et documentés dévoile le quotidien de personnes atteintes de troubles mentaux, pour déconstruire les peurs et idées reçues.",
+    note: "★★★★☆"
+  },
+  {
     image: "images/flux.jpg",
     titre: "Flux",
     auteur: "Jop",
@@ -289,11 +394,28 @@ const bds = [
     note: "★★★★☆"
   },
   {
+    image: "images/gari_gari.jpg",
+    titre: "Gari Gari",
+    auteur: "Hugues Micol",
+    editeur: "Cornélius",
+    resume: "Dans un Japon médiéval fantasmé, un jeune ninja muet traverse un monde peuplé de créatures étranges pour accomplir une mission périlleuse, dans un récit entièrement visuel et envoûtant.",
+    signe: true,
+    note: "★★★★☆"
+  },
+  {
     image: "images/le_grand_vide.jpg",
-    titre: "Le_Grand_Vide",
+    titre: "Le Grand Vide",
     auteur: "Léa Murawiec",
     editeur: "Ankama",
     resume: "Manel Naher vit dans une ville où ta survie dépend de combien de gens pensent à toi… jusqu’à ce qu’un homonyme ultra‑célèbre lui vole la vedette et menace de la faire disparaître dans le Grand Vide.",
+    note: "★★★★☆"
+  },
+  {
+    image: "images/hellboy.jpg",
+    titre: "Hellboy",
+    auteur: "Mike Mignola",
+    editeur: "Delcourt",
+    resume: "Un démon élevé par les Alliés enquête sur la mort de son mentor et découvre un complot occulte mené par Raspoutine pour déclencher l’apocalypse.",
     note: "★★★★☆"
   },
   {
@@ -305,6 +427,14 @@ const bds = [
     note: "★★★★☆"
   },
   {
+    image: "images/lhomme_a_la_tete_de_vis.jpg",
+    titre: "L'Homme à la tête de vis",
+    auteur: "Mike Mignola",
+    editeur: "Delcourt",
+    resume: "Un agent à tête de vis affronte un empereur zombie dans des récits absurdes, drôles et fantastiques.",
+    note: "★★★★☆"
+  },
+  {
     image: "images/happy_endings.jpg",
     titre: "Happy Endings",
     auteur: "Lucie Bryon",
@@ -313,11 +443,35 @@ const bds = [
     note: "★★★☆☆"
   },
   {
+    image: "images/huis_clos.jpg",
+    titre: "Huis Clos",
+    auteur: "Naomi Reboul",
+    editeur: "La Boîte à Bulles",
+    resume: "En plein désert australien, un photographe tourmenté vit un face-à-face intense avec un compagnon aussi lumineux qu’instable.",
+    note: "★★★☆☆"
+  },
+  {
     image: "images/ici.jpg",
     titre: "Ici",
     auteur: "Richard McGuire",
     editeur: "Éditions Cornélius",
     resume: "Une pièce immobile à travers des milliers d’années, où défilent vies, morts, dinosaures et canapés dans un ballet spatio-temporel vertigineux.",
+    note: "★★★★★"
+  },
+  {
+    image: "images/jaune_1.jpg",
+    titre: "Jaune #01",
+    auteur: "Run & Rours",
+    editeur: "Rue de Sèvres & Label 619",
+    resume: "Lors d’un camp de vacances en montagne, une légende urbaine prend vie quand une blague tourne mal, déclenchant une nuit sanglante sous le signe d’un mystérieux tueur en ciré jaune.",
+    note: "★★★☆☆"
+  },
+  {
+    image: "images/je_te_lavais_bien_dit.jpg",
+    titre: "Je te l'avais bien dit",
+    auteur: "Candela Sierra",
+    editeur: "Atrabile",
+    resume: "À travers des saynètes grinçantes et pleines d’ironie, se dévoile l’absurdité des relations modernes, entre malentendus, hypocrisie et solitude ordinaire.",
     note: "★★★★★"
   },
   {
@@ -362,6 +516,22 @@ const bds = [
     resume: "À Berlin, un flic brut de décoffrage embarque Fritz Lang sur les traces d’un tueur, entre bière, nazis et ciné noir en devenir.",
     signe: true,
     note: "★★★★☆"
+  },  
+  {
+    image: "images/lettres_perdues.jpg",
+    titre: "Lettres Perdues",
+    auteur: "Jim Bishop",
+    editeur: "Glénat",
+    resume: "Un garçon part en ville chercher une lettre de sa mère disparue et se retrouve entraîné dans une aventure étrange et bouleversante.",
+    note: "★★★☆☆"
+  },
+  {
+    image: "images/loba_loca.jpg",
+    titre: "Lob Loca",
+    auteur: "Run & Singelin",
+    editeur: "Ankama & Label 619",
+    resume: "Guadalupe, une ado rebelle, part sur les traces de sa mère catcheuse disparue et endosse à son tour l’identité de Loba Loca.",
+    note: "★★★★☆"
   },
   {
     image: "images/le_loup.jpg",
@@ -380,6 +550,14 @@ const bds = [
     note: ""
   },
   {
+    image: "images/low_reader_01.jpg",
+    titre: "Low Reader #01",
+    auteur: "Mud & Ghisalberti / Run & Singelin / Maudoux",
+    editeur: "Rue de Sèvres & Label 619",
+    resume: "Une jeune femme fuit une bande de motards lycanthropes à travers les bois, traquée sans relâche. / Une mère jeune avec son bébé lutte seule contre des tueurs yakuzas dans un appartement sur le point de basculer. / Un policier poursuit un criminel en pleine chaleur désertique, avec une traque qui tourne au carnage.",
+    note: "★★★☆☆"
+  },
+  {
     image: "images/maus_i.jpg",
     titre: "Maus I",
     auteur: "Art Spiegelman",
@@ -393,6 +571,30 @@ const bds = [
     auteur: "Art Spiegelman",
     editeur: "Flammarion",
     resume: "Suite poignante de Maus I, l’auteur poursuit l’histoire traumatisante de son père et explore l’impact psychologique de l’Holocauste.",
+    note: "★★★★★"
+  },
+  {
+    image: "images/meta_muta.jpg",
+    titre: "Meta Muta",
+    auteur: "Jérémie Labsolu",
+    editeur: "Rue de Sèvres & Label 619",
+    resume: "Entre deux tomes de Mutafukaz, Angelino vit une expérience hallucinée entre vie et mort, plongé dans un cauchemar psychédélique et introspectif.",
+    note: "★★★★☆"
+  },
+  {
+    image: "images/les_meteores.jpg",
+    titre: "Les Météores",
+    auteur: "Tommy Redolfi & JC Deveney",
+    editeur: "Delcourt",
+    resume: "Alors qu’une météorite fonce vers la Terre, une poignée de personnages ordinaires vivent leurs drames, espoirs et rencontres dans une atmosphère suspendue, douce et mélancolique.",
+    note: "★★★★★"
+  },
+  {
+    image: "images/minuscule_folle_sauvage.jpg",
+    titre: "Minuscule Folle Sauvage",
+    auteur: "Pauline de Tarragon",
+    editeur: "La ville brule",
+    resume: "Alors qu’une météorite fonce vers la Terre, une poignée de personnages ordinaires vivent leurs drames, espoirs et rencontres dans une atmosphère suspendue, douce et mélancolique.",
     note: "★★★★★"
   },
   {
@@ -418,6 +620,87 @@ const bds = [
     editeur: "Glénat",
     resume: "Cléa croise la route de Pierrot, magicien mystérieux, et s’embarque dans une aventure en forêt où les contes de fées ne sont pas toujours ce qu’ils semblent.",
     signe: true,
+    note: "★★★★☆"
+  },
+  {
+    image: "images/la_montagne_entre_nous.jpg",
+    titre: "La Montagne entre nous",
+    auteur: "Marcel Shorjian & Jeanne Sterkers",
+    editeur: "Sarbacane",
+    resume: "Une femme revient dans son village natal pour un enterrement, ravivant les blessures et non-dits d’une amitié abandonnée, entre regrets et possible réconciliation.",
+    signe: true,
+    note: "★★★★☆"
+  },
+  {
+    image: "images/mutafukaz_0.jpg",
+    titre: "Mutafukaz Tome 0",
+    auteur: "Run",
+    editeur: "Ankama & Label 619",
+    resume: "Un prologue lunaire où l’on découvre les origines étranges des Macho suite à un contact extraterrestre, jetant les bases d’une invasion cosmique à venir.",
+    note: "★★★★☆"
+  },
+  {
+    image: "images/mutafukaz_1.jpg",
+    titre: "Mutafukaz Tome 1",
+    auteur: "Run",
+    editeur: "Ankama & Label 619",
+    resume: "Angelino, loser de Dark Meat City, percute un scooter et se met à voir des ombres. Lui et son pote Vinz plongent dans un engrenage paranoïaque : poursuites, hommes en noir, hallucinations, et fuite vers le quartier de Palm Hill.",
+    note: "★★★★☆"
+  },
+  {
+    image: "images/mutafukaz_2.jpg",
+    titre: "Mutafukaz Tome 2",
+    auteur: "Run",
+    editeur: "Ankama & Label 619",
+    resume: "Angelino et Vinz sont désormais fugitifs : traqués par des agents mystérieux et confrontés à des monstres étranges. Tension, shoot-up urbains à Little Tokyo, road‑trip dans le désert : l’absurde prend le dessus.",
+    note: "★★★★☆"
+  },
+  {
+    image: "images/mutafukaz_3.jpg",
+    titre: "Mutafukaz Tome 3",
+    auteur: "Run",
+    editeur: "Ankama & Label 619",
+    resume: "Le voile se lève peu à peu sur les origines d’Angelino et les alliances occultes. Gang wars, implications politiques et extraterrestres se mêlent dans une montée en intensité.",
+    note: "★★★★☆"
+  },
+  {
+    image: "images/mutafukaz_4.jpg",
+    titre: "Mutafukaz Tome 4",
+    auteur: "Run",
+    editeur: "Ankama & Label 619",
+    resume: "La cité est en guerre : invasion des Macho, affrontements sanglants. Angelino, Vinz et leurs alliés retournent à Palm Hill pour déterrer des secrets et déclencher un bouleversement.",
+    note: "★★★★☆"
+  },
+  {
+    image: "images/mutafukaz_5.jpg",
+    titre: "Mutafukaz Tome 5",
+    auteur: "Run",
+    editeur: "Ankama & Label 619",
+    resume: "Climax apocalyptique : le conflit Macho‑CIA atteint son paroxysme. Trahisons, assassinat politique, effondrement d’alliances, révélations sur le rôle d’Angelino dans la chute annoncée de World Power.",
+    note: "★★★★☆"
+  },
+  {
+    image: "images/mutafukaz_2_1.jpg",
+    titre: "Mutafukaz 2 Tome 1",
+    auteur: "Run",
+    editeur: "Rue de Sèvres & Label 619",
+    resume: "Angelino et Vinz se réfugient à Palavas pour échapper aux MIB, mais leur tranquillité est brisée par l’arrivée d’une mystérieuse organisation française.",
+    note: "★★★★☆"
+  },
+  {
+    image: "images/mutafukaz_2_2.jpg",
+    titre: "Mutafukaz 2 Tome 2",
+    auteur: "Run",
+    editeur: "Rue de Sèvres & Label 619",
+    resume: "Rattrapé par son passé, Angelino découvre la vérité sur ses origines et se retrouve pris entre plusieurs groupes prêts à tout pour exploiter ses pouvoirs.",
+    note: "★★★★☆"
+  },
+  {
+    image: "images/mutafukaz_1886.jpg",
+    titre: "Mutafukaz 1886",
+    auteur: "Run & Hutt",
+    editeur: "Ankama & Label 619",
+    resume: "Dans une Amérique uchronique de 1886, un ancêtre d’Angelino se retrouve au cœur d’un complot mêlant créatures occultes, aliens et luttes de pouvoir.",
     note: "★★★★☆"
   },
   {
@@ -463,6 +746,22 @@ const bds = [
     note: ""
   },
   {
+    image: "images/un_ocean_damour.jpg",
+    titre: "Un Océan d'amour",
+    auteur: "Grégory Pannacione & Wilfrid Lupano",
+    editeur: "Delcourt",
+    resume: "Un vieux marin breton est avalé par un chalutier industriel pendant que sa femme, bigoudène coriace, parcourt le monde en vadrouille pour le retrouver, entre mouettes militantes et pirates loufoques.",
+    note: "★★★★☆"
+  },
+  {
+    image: "images/on_est_en_finale.jpg",
+    titre: "On est en finale",
+    auteur: "Camille Blandin",
+    editeur: "Misma",
+    resume: "Une bande de bras cassés arrive en finale départementale de basket : malgré leur inexpérience, leurs dérapages verbaux font plus de spectacle que leurs paniers — un match large en bouffonnerie mais serré en émotion humaine. ",
+    note: "★★★★☆"
+  },
+  {
     image: "images/our_encounter_with_evil.jpg",
     titre: "Our Encounter with Evil",
     auteur: "Mike Mignola & Warwick Johnson-Cadwell",
@@ -485,6 +784,14 @@ const bds = [
     editeur: "Dargaud",
     resume: "Un ogre minuscule au milieu de géants cruels tente de trouver sa place entre barbarie et humanité.",
     note: ""
+  },
+  {
+    image: "images/pillules_bleues.jpg",
+    titre: "Lettres Perdues",
+    auteur: "Fredrik Peeters",
+    editeur: "Atrabile",
+    resume: "Frederik tombe amoureux de Cati, mère séropositive, et explore avec elle l’amour, la maladie et la paternité dans un récit autobiographique puissant porté par une narration sensible et pleine d’espoir.",
+    note: "★★★☆☆"
   },
   {
     image: "images/pisse_meme.jpg",
@@ -511,6 +818,22 @@ const bds = [
     note: ""
   },
   {
+    image: "images/puta_madre.jpg",
+    titre: "Puta Madre",
+    auteur: "Run & Neyef",
+    editeur: "Ankama & Label 619",
+    resume: "Jesus, jeune délinquant de DMC, découvre le catch en prison et tente de se reconstruire sous le nom d’El Diablo Verde.",
+    note: "★★★★★"
+  },
+  {
+    image: "images/une_rainette_en_automne.jpg",
+    titre: "Une Rainette en automne",
+    auteur: "Linnea Sterte",
+    editeur: "Les éditions de la cerise",
+    resume: "Une petite rainette cherche sa place dans un monde qui change, portée par la poésie de l’automne et les murmures de la nature qui s’endort.",
+    note: "★★★☆☆"
+  },
+  {
     image: "images/renee_aux_bois_dormants.jpg",
     titre: "René.e aux bois dormant",
     auteur: "Elene Usdin",
@@ -532,6 +855,22 @@ const bds = [
     auteur: "Brecht Evens",
     editeur: "Actes Sud BD",
     resume: "Arthur grandit enfermé avec son père convaincu qu’un vaste complot menace le monde, jusqu’à ce que le paternel disparaisse — forçant le garçon à sortir de leur citadelle parano pour affronter l’inconnu.",
+    note: "★★★★☆"
+  },
+  {
+    image: "images/rossigny_zoo.jpg",
+    titre: "Rossigny Zoo",
+    auteur: "Chloé Wary",
+    editeur: "FLBLB",
+    resume: "À Rosigny-sur-Seine, quatre amis défendent leur liberté à travers le hip-hop face à la gentrification de leur quartier.",
+    note: "★★★★☆"
+  },
+  {
+    image: "images/saison_des_roses.jpg",
+    titre: "Saison des Roses",
+    auteur: "Chloé Wary",
+    editeur: "FLBLB",
+    resume: "Barbara, lycéenne footballeuse, se bat pour sauver son équipe féminine menacée par le sexisme de son club.",
     note: "★★★★☆"
   },
   {
@@ -560,6 +899,31 @@ const bds = [
     note: "★★★★☆"
   },
   {
+    image: "images/sentimental_kiss.jpg",
+    titre: "Sentimental Kiss",
+    auteur: "Camille Van Hoof",
+    editeur: "Employé du moi",
+    resume: "Deux adolescentes queer se découvrent une connexion magique liée à leurs hormones, explorant l’amitié, le consentement et la sexualité naissante dans un univers tendre, doux et métaphorique. ",
+    note: "★★★☆☆"
+  },
+  {
+    image: "images/shin_zero.jpg",
+    titre: "Shin Zéro #01",
+    auteur: "SIngelin & Bablet",
+    editeur: "Rue de Sèvres & Label 619",
+    resume: "Vingt ans après la victoire des Sentai sur les kaijus, un groupe de jeunes justiciers aujourd’hui précarisés tente de redonner sens à leur existence dans un monde qui a oublié son mythe de héros",
+    signe: true,
+    note: "★★★☆☆"
+  },
+  {
+    image: "images/six_gun_gorilla.jpg",
+    titre: "Six-gun Gorilla",
+    auteur: "Jeff Stokely & Simon Spurrier",
+    editeur: "Ankama",
+    resume: "Dans un Far West futuriste ravagé par la guerre, un gorille maniant le revolver cherche à venger son ami humain, mêlant action, humour et réflexion sur la mémoire et la liberté.",
+    note: "★★★☆☆"
+  },
+  {
     image: "images/the_smartest_kid.jpg",
     titre: "The smartest kid",
     auteur: "Jimmy Corrigan",
@@ -574,6 +938,22 @@ const bds = [
     editeur: "Rue de Sèvre",
     resume: "Trois ados coincés croisent Odette, tornade rebelle qui transforme leur été chic en été choc.",
     note: "★★★☆☆"
+  },
+  {
+    image: "images/teddy_bear.jpg",
+    titre: "Teddy Bear",
+    auteur: "Gasparutto & Giugiaro",
+    editeur: "Label 619",
+    resume: "Un tueur à gages solitaire voit ses repères voler en éclats lorsqu’il rencontre une fillette qui ravive en lui une part d’humanité oubliée.",
+    note: "★★★★☆"
+  },
+  {
+    image: "images/todd_le_geant.jpg",
+    titre: "Todd le géant s'est fait voler son slip",
+    auteur: "Alex Chauvel",
+    editeur: "The Hoochie Coochie",
+    resume: "Un géant tranquille voit son slip disparaître et part à sa recherche, mais se retrouve entraîné dans une quête cosmique pour sauver le monde aux côtés de compagnons étranges et magiques.",
+    note: "★★★★☆"
   },
   {
     image: "images/vers_la_ville.jpg",
@@ -601,11 +981,27 @@ const bds = [
     note: "★★★★☆"
   },
   {
+    image: "images/walking_dead.jpg",
+    titre: "Walking dead",
+    auteur: "Robert Kirkman & Tony Moore & Charlie Adlard",
+    editeur: "Hachette",
+    resume: "Un shérif se réveille d’un coma et découvre un monde ravagé par les morts-vivants, où il part à la recherche de sa famille.",
+    note: "★★★★☆"
+  },
+  {
     image: "images/where_the_body_was.jpg",
     titre: "Where the Body Was",
     auteur: "Ed Brubaker & Sean Phillips",
     editeur: "First Second",
     resume: "Un meurtre est découvert l’été 1984 dans une banlieue tranquille, et une douzaine de voisins au passé louche racontent chacun leur version du drame.",
+    note: "★★★★☆"
+  },
+  {
+    image: "images/zai_zai_zai_zai.jpg",
+    titre: "Zaï Zaï Zaï Zaï",
+    auteur: "Fab Caro",
+    editeur: "Six Pieds Sous Terre",
+    resume: "Un homme oublié sans carte de fidélité devient fugitif, déclenchant une cavale absurde et satirique à travers une société paranoïaque.",
     note: "★★★★☆"
   },
 ];

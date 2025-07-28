@@ -260,3 +260,23 @@ html, body {
   border-radius: 8px;
   margin-bottom: 0.5rem;
 }
+
+.counter {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #444;
+  margin-top: 0.5rem;
+}
+@media (min-width: 900px) {
+  .bd-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+.top-title {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #004225;
+  margin-bottom: 0.5rem;
+}

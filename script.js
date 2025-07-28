@@ -5,6 +5,8 @@ const sortSelect = document.getElementById("sortSelect");
 let currentIndex = -1;
 
 function displayBDs(query = "") {
+  const topTitle = document.getElementById("topTitle");
+  if (topTitle) topTitle.textContent = "";
   bdGrid.innerHTML = "";
   let filteredBDs = [...bds];
 
@@ -22,6 +24,9 @@ function displayBDs(query = "") {
     if (sortBy === 'note') return (b.note || '').localeCompare(a.note || '');
     return (a[sortBy] || '').localeCompare(b[sortBy] || '');
   });
+
+  const counter = document.getElementById('counter');
+  if (counter) counter.textContent = `${filteredBDs.length} BD affichées`;
 
   filteredBDs.forEach(bd => {
     const card = document.createElement("div");
@@ -112,6 +117,8 @@ searchInput.addEventListener("input", () => displayBDs(searchInput.value));
 displayBDs();
 
 function filterTop(name) {
+  const topTitle = document.getElementById("topTitle");
+  if (topTitle) topTitle.textContent = "TOP 5 de " + (name === "mathilde" ? "Mathilde" : "Sofiane");
   let topTitles = [];
   if (name === "mathilde") {
     topTitles = ["Adieu triste amour", "C’est comme ça que je disparais", "Culottées"];
@@ -124,6 +131,8 @@ function filterTop(name) {
 }
 
 function clearSearch() {
+  const topTitle = document.getElementById("topTitle");
+  if (topTitle) topTitle.textContent = "";
   searchInput.value = "";
   displayBDs();
 }
@@ -135,6 +144,9 @@ function displayFilteredBDs(list) {
     if (sortBy === 'note') return (b.note || '').localeCompare(a.note || '');
     return (a[sortBy] || '').localeCompare(b[sortBy] || '');
   });
+
+  const counter = document.getElementById('counter');
+  if (counter) counter.textContent = `${list.length} BD affichées`;
 
   list.forEach(bd => {
     const card = document.createElement("div");

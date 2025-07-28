@@ -34,7 +34,7 @@ function displayBDs(query = "") {
     card.innerHTML = `
       <img src="${bd.image}" alt="${bd.titre}">
       <div class="bd-info">
-        <h2>${bd.titre}</h2>${bd.signe ? '<span class="badge-signe">Signée</span>' : ''}
+        <h2>${bd.titre}</h2>${["Alyte","Le cas David Zimmerman","Huis Clos","Les Météores","La Montagne entre nous","Lettres Perdues","Pillules Bleues","Une Rainette en automne","Saison des Roses","Voie de Garage","Au dedans","Blast","Le Discours de la panthère","Mutafukaz Tome 1","La couleur des choses","Je te l'avais bien dit","Fantasy","On est en finale","The Number"].includes(bd.titre) ? '<span class="badge-selection">❤️ Sélection</span>' : ''}${bd.signe ? '<span class="badge-signe">Signée</span>' : ''}
         <p><strong>Auteur :</strong> ${bd.auteur}</p>
         <p><strong>Éditeur :</strong> ${bd.editeur}</p>
       </div>
@@ -66,7 +66,7 @@ function openModal(bd) {
       <button onclick="navigateModal(-1)">← Précédent</button>
       <button onclick="navigateModal(1)">Suivant →</button>
     </div>
-    <h2>${bd.titre}</h2>${bd.signe ? '<span class="badge-signe">Signée</span>' : ''}
+    <h2>${bd.titre}</h2>${["Alyte","Le cas David Zimmerman","Huis Clos","Les Météores","La Montagne entre nous","Lettres Perdues","Pillules Bleues","Une Rainette en automne","Saison des Roses","Voie de Garage","Au dedans","Blast","Le Discours de la panthère","Mutafukaz Tome 1","La couleur des choses","Je te l'avais bien dit","Fantasy","On est en finale","The Number"].includes(bd.titre) ? '<span class="badge-selection">❤️ Sélection</span>' : ''}${bd.signe ? '<span class="badge-signe">Signée</span>' : ''}
     <p><strong>Auteur :</strong> ${bd.auteur}</p>
     <p><strong>Éditeur :</strong> ${bd.editeur}</p>
     <p><strong>Résumé :</strong> ${bd.resume}</p>
@@ -118,12 +118,12 @@ displayBDs();
 
 function filterTop(name) {
   const topTitle = document.getElementById("topTitle");
-  if (topTitle) topTitle.textContent = "TOP 5 de " + (name === "mathilde" ? "Mathilde" : "Sofiane");
+  if (topTitle) topTitle.textContent = "Le TOP 10 de " + (name === "mathilde" ? "Mathilde" : "Sofiane");
   let topTitles = [];
   if (name === "mathilde") {
-    topTitles = ["Adieu triste amour", "C’est comme ça que je disparais", "Culottées"];
+    topTitles = ["Alyte", "Le cas David Zimmerman", "Huis Clos", "Les Météores", "La Montagne entre nous", "Lettres Perdues", "Pillules Bleues", "Une Rainette en automne", "Saison des Roses", "Voie de Garage"];
   } else if (name === "sofiane") {
-    topTitles = ["L'Aimant", "Alyte", "The Boy, The Mole, The Fox and The Horse"];
+    topTitles = ["Au dedans", "Blast", "Le Discours de la panthère", "Mutafukaz Tome 1", "La couleur des choses", "Je te l'avais bien dit", "Fantasy", "On est en finale", "The Number", "Lettres Perdues"];
   }
   searchInput.value = ""; // clear search
   const filtered = bds.filter(bd => topTitles.includes(bd.titre));
@@ -154,7 +154,7 @@ function displayFilteredBDs(list) {
     card.innerHTML = `
       <img src="${bd.image}" alt="${bd.titre}">
       <div class="bd-info">
-        <h2>${bd.titre}</h2>${bd.signe ? '<span class="badge-signe">Signée</span>' : ''}
+        <h2>${bd.titre}</h2>${["Alyte","Le cas David Zimmerman","Huis Clos","Les Météores","La Montagne entre nous","Lettres Perdues","Pillules Bleues","Une Rainette en automne","Saison des Roses","Voie de Garage","Au dedans","Blast","Le Discours de la panthère","Mutafukaz Tome 1","La couleur des choses","Je te l'avais bien dit","Fantasy","On est en finale","The Number"].includes(bd.titre) ? '<span class="badge-selection">❤️ Sélection</span>' : ''}${bd.signe ? '<span class="badge-signe">Signée</span>' : ''}
         <p><strong>Auteur :</strong> ${bd.auteur}</p>
         <p><strong>Éditeur :</strong> ${bd.editeur}</p>
       </div>
@@ -170,7 +170,7 @@ function displayFilteredBDs(list) {
     document.body.classList.add('modal-open');
     content.innerHTML = `
       <img src="${bd.image}" alt="${bd.titre}" style="width:100%; border-radius: 10px; margin-bottom: 1rem;">
-      <h2>${bd.titre}</h2>${bd.signe ? '<span class="badge-signe">Signée</span>' : ''}
+      <h2>${bd.titre}</h2>${["Alyte","Le cas David Zimmerman","Huis Clos","Les Météores","La Montagne entre nous","Lettres Perdues","Pillules Bleues","Une Rainette en automne","Saison des Roses","Voie de Garage","Au dedans","Blast","Le Discours de la panthère","Mutafukaz Tome 1","La couleur des choses","Je te l'avais bien dit","Fantasy","On est en finale","The Number"].includes(bd.titre) ? '<span class="badge-selection">❤️ Sélection</span>' : ''}${bd.signe ? '<span class="badge-signe">Signée</span>' : ''}
       <p><strong>Auteur :</strong> ${bd.auteur}</p>
       <p><strong>Éditeur :</strong> ${bd.editeur}</p>
       <p><strong>Résumé :</strong> ${bd.resume}</p>

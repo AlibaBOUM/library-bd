@@ -787,7 +787,7 @@ const bds = [
   },
   {
     image: "images/pillules_bleues.jpg",
-    titre: "Lettres Perdues",
+    titre: "Pillules Bleues",
     auteur: "Fredrik Peeters",
     editeur: "Atrabile",
     resume: "Frederik tombe amoureux de Cati, mère séropositive, et explore avec elle l’amour, la maladie et la paternité dans un récit autobiographique puissant porté par une narration sensible et pleine d’espoir.",

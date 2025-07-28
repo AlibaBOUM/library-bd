@@ -280,3 +280,14 @@ html, body {
   color: #004225;
   margin-bottom: 0.5rem;
 }
+
+
+.badge-selection {
+  display: inline-block;
+  background-color: #c2185b;
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 8px;
+  margin-left: 0.5rem;
+}
